@@ -47,7 +47,6 @@ var initDb = function(callback) {
       return;
     }
 
-
     db = conn;
     dbDetails.databaseName = db.databaseName;
     dbDetails.url = mongoURLLabel;
